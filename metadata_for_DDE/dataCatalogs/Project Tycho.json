@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "Project Tycho",
+    "description": "The Project Tycho Repository for Global Health Data aims to advance the availabilty and use of data for improving global health. Project Tycho unlocks global health data to a rapidly growing user community of over 3,000 researchers, students, journalists, officials, and others in over 90 countries. A Project Tycho dataset includes case counts for a disease condition in a country. Data for Project Tycho datasets can come from various sources and have been pre-processed into the standard Project Tycho data format.",
+    "abstract": "Project TYCHO is a NIH supported IID repository that includes clinical data.",
+    "genre": "IID",
+    "conditionsOfAccess": "Closed",
+    "url": "https://www.tycho.pitt.edu/",
+    "identifier": "Project Tycho",
+    "dataset": {
+        "name": "Project Tycho datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Project Tycho%22%29%29&from=1"
+    }
+}

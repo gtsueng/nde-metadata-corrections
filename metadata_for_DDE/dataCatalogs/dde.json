@@ -1,0 +1,25 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "Data Discovery Engine",
+    "description": "The Data Discovery Engine is a streamlined process to create, distribute and harves findable metadata via interoperable Schema.org schemas. The biomedical and informatics communities have largely endorsed the spirit and basic components of the FAIR Data Principles. Biomedical data producers, including CTSA hubs, need actionable best-practice guidance on how to make their data discoverable and reusable, and bring the practical benefits of data sharing to researcher's own research projects, as well as the research community as a whole.",
+    "abstract": "The Data Discovery Engine is a NIAID supported metadata registry that includes metadata from IID and general repositories.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Varied",
+    "url": "https://discovery.biothings.io/",
+    "identifier": "Data Discovery Engine",
+    "source": "dde"
+}

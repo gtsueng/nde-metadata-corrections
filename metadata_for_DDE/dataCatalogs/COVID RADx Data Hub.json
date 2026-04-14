@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "RADx Data Hub",
+    "description": "The NIH Rapid Acceleration of Diagnostics Data Hub (RADx Data Hub) is a centralized data repository that provides access to analytic tools and de-identified COVID-19 data from the RADx Initiative. The RADx Data Hub supports scientific efforts to better understand COVID-19 and factors associated with disparities in morbidity and mortality in underserved and vulnerable populations, by allowing researchers to discover, access, and perform analyses of COVID-19 datasets in a cloud-enabled platform.",
+    "abstract": "COVID RADx Data Hub is a NIH supported IID repository that includes clinical data.",
+    "genre": "IID",
+    "conditionsOfAccess": "Unknown",
+    "url": "https://radxdatahub.nih.gov/",
+    "identifier": "COVID RADx Data Hub",
+    "dataset": {
+        "name": "RADx Data Hub datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22RADx Data Hub%22%29%29&from=1"
+    }
+}

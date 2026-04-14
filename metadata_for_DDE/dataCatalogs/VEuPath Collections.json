@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "VEuPathDB",
+    "description": "VEuPath Collections is the collection of component websites of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) that have been constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). \nThe VEuPath Collections include the following component websites as individual collections: \nAmoebaDB \nCryptoDB \nGiardiaDB \nHostDB \nPlasmoDB \nVectorBase \nFungiDB \nMicrosporidiaDB \nToxoDB \nTrichDB \nTriTrypDB \nPiroplasmaDB.",
+    "abstract": "VEuPathCollections are NIAID supported IID component repositories of VEuPathDB which include collections of genomic data.",
+    "genre": "IID",
+    "conditionsOfAccess": "Closed",
+    "url": "https://veupathdb.org/veupathdb/app/",
+    "identifier": "VEuPath Collections",
+    "dataset": {
+        "name": "VEuPathDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22VEuPathDB%22%29%29&from=1"
+    }
+}

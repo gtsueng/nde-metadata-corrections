@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "Omics Discovery Index (OmicsDI)",
+    "description": "The Omics Discovery Index (OmicsDI) provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).",
+    "abstract": "Omics Discovery Index (OmicsDI) is a generalist repository that is part of ELIXIR infrastructure that includes multi-omics data for most domains.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Unknown",
+    "url": "https://www.omicsdi.org/",
+    "identifier": "OmicsDI",
+    "dataset": {
+        "name": "Omics Discovery Index (OmicsDI) datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Omics Discovery Index (OmicsDI)%22%29%29&from=1"
+    }
+}

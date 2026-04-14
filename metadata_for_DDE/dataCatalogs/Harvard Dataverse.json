@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "Harvard Dataverse",
+    "description": "The Harvard Dataverse Repository is a free data repository open to all researchers from any discipline, both inside and outside of the Harvard community, where you can share, archive, cite, access, and explore research data. Each individual Dataverse collection is a customizable collection of datasets (or a virtual repository) for organizing, managing, and showcasing datasets.",
+    "abstract": "Harvard Dataverse is a GREI repository that includes most data types and domains.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Varied",
+    "url": "https://dataverse.harvard.edu/",
+    "identifier": "Harvard Dataverse",
+    "dataset": {
+        "name": "Harvard Dataverse datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Harvard Dataverse%22%29%29&from=1"
+    }
+}

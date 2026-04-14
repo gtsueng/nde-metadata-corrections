@@ -1,0 +1,1317 @@
+[
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "AccessClinicalData@NIAID",
+        "description": "AccessClinicalData@NIAID is a NIAID cloud-based, secure data platform that enables sharing of and access to reports and data sets from NIAID COVID-19 and other sponsored clinical trials for the basic and clinical research community.",
+        "abstract": "AccessClinicalData is a NIAID supported IID repository that includes clinical trials data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Varied",
+        "url": "https://accessclinicaldata.niaid.nih.gov/",
+        "identifier": "AccessClinicalData@NIAID",
+        "dataset": {
+            "name": "AccessClinicalData@NIAID datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22AccessClinicalData@NIAID%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "AmoebaDB",
+        "description": "AmoebaDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK).These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "AmoebaDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://amoebadb.org/amoeba/app",
+        "identifier": "AmoebaDB",
+        "dataset": {
+            "name": "AmoebaDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22AmoebaDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "bio.tools",
+        "description": "The use of bioinformatics is ubiquitous within the life sciences.  In bio.tools, we are striving to provide a comprehensive registry of software and databases, facilitating researchers from across the spectrum of biological and biomedical science to find, understand, utilise and cite the resources they need in their day-to-day work.\nEverything from simple command-line tools and online services, through to databases and complex, multi-functional analysis workflows is included. Resources are described in a rigorous semantics and syntax, providing end-users with the convenience of concise, consistent and therefore comparable information.\nEach bio.tools entry is assigned a human-readable, unique identifier based on the resource name, e.g. biotools:signalp.  These identifiers provide a persistent reference to our Tool Cards of essential information, as well as a means to trace resources and integrate bio.tools data with other resources.\nbio.tools was supported by ELIXIR through the  ELIXIR-EXCELERATE grant, which was funded by the European Union Horizon 2020 program under grant agreement 676559.",
+        "abstract": "bio.tools is an ELIXIR supported tool repository that includes information about software tools, databases and services.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://bio.tools/",
+        "identifier": "bio.tools",
+        "dataset": {
+            "name": "bio.tools datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22bio.tools%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "ClinEpiDB",
+        "description": "ClinEpiDB, launched in February 2018, is an open-access exploratory data analysis platform. We integrate data from high quality epidemiological studies, and offer tools and visualizations to explore the data within the browser in a point and click interface. We enable investigators to maximize the utility and reach of their data and to make optimal use of data released by others. ClinEpiDB is led by a team of scientists and developers based at the University of Pennsylvania, the University of Georgia, Imperial College London, and several other academic institutions. Currently, we are funded by the Bill and Melinda Gates Foundation for resource development and data integration, and by NIAID for integration of data from the International Centers of Excellence in Malaria Research (ICEMR).",
+        "abstract": "ClinEpiDB is a NIAID supported IID repository that includes epidemiological data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Varied",
+        "url": "https://clinepidb.org/ce/app",
+        "identifier": "ClinEpiDB",
+        "dataset": {
+            "name": "ClinEpiDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22ClinEpiDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "COVID RADx Data Hub",
+        "description": "The NIH Rapid Acceleration of Diagnostics Data Hub (RADx Data Hub) is a centralized data repository that provides access to analytic tools and de-identified COVID-19 data from the RADx Initiative. The RADx Data Hub supports scientific efforts to better understand COVID-19 and factors associated with disparities in morbidity and mortality in underserved and vulnerable populations, by allowing researchers to discover, access, and perform analyses of COVID-19 datasets in a cloud-enabled platform.",
+        "abstract": "COVID RADx Data Hub is a NIH supported IID repository that includes clinical data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://radxdatahub.nih.gov/",
+        "identifier": "RADx Data Hub",
+        "dataset": {
+            "name": "COVID RADx Data Hub datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22COVID RADx Data Hub%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "CryptoDB",
+        "description": "CryptoDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "CryptoDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://cryptodb.org/cryptodb/app",
+        "identifier": "CryptoDB",
+        "dataset": {
+            "name": "CryptoDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22CryptoDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Data Discovery Engine",
+        "description": "The Data Discovery Engine is a streamlined process to create, distribute and harves findable metadata via interoperable Schema.org schemas. The biomedical and informatics communities have largely endorsed the spirit and basic components of the FAIR Data Principles. Biomedical data producers, including CTSA hubs, need actionable best-practice guidance on how to make their data discoverable and reusable, and bring the practical benefits of data sharing to researcher's own research projects, as well as the research community as a whole.",
+        "abstract": "The Data Discovery Engine is a NIAID supported metadata registry that includes metadata from IID and general repositories.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://discovery.biothings.io/",
+        "identifier": "Data Discovery Engine",
+        "dataset": {
+            "name": "Data Discovery Engine datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Data Discovery Engine%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Database of Genotypes and Phenotypes (dbGaP)",
+        "description": "The database of Genotypes and Phenotypes (dbGaP) was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in Humans. Such studies include genome-wide association studies, medical sequencing, molecular diagnostic assays, as well as association between genotype and non-clinical traits. The individual level data hosted at the dbGaP is distributed through a controlled access system. The types of data distributed through the dbGaP include phenotype data, association (GWAS) data, summary level analysis data, SRA (Short Read Archive) data, reference alignment (BAM) data, VCF (Variant Call Format) data, expression data, imputed genotype data, image data, etc.",
+        "abstract": "Database of Genotypes and Phenotypes (dbGaP) is a NIH supported IID repository that includes multiomic data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://www.ncbi.nlm.nih.gov/gap",
+        "identifier": "The Database of Genotypes and Phenotypes",
+        "dataset": {
+            "name": "Database of Genotypes and Phenotypes (dbGaP) datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Database of Genotypes and Phenotypes (dbGaP)%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Dryad Digital Repository",
+        "description": "Dryad is an open source, community driven project that takes a unique approach to data publication and digital preservation. Dryad focuses on search, presentation, and discovery and delegates the responsibility for the data preservation function to the underlying repository with which it is integrated. Dryad aims to allow researchers to validate published findings, explore new analysis methodologies, re-purpose data for research questions unanticipated by the original authors, and perform synthetic studies such as formal meta-analyses.",
+        "abstract": "Dryad Digital Repository is a GREI repository that includes most data types and domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "https://datadryad.org",
+        "identifier": "Dryad Digital Repository",
+        "dataset": {
+            "name": "Dryad Digital Repository datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Dryad Digital Repository%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Figshare",
+        "description": "Figshare is a repository where users can make all of their research outputs available in a citable, shareable and discoverable manner.",
+        "abstract": "Figshare is a NIH supported generalist repository that includes generalist data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://figshare.com/",
+        "identifier": "Figshare",
+        "dataset": {
+            "name": "Figshare datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Figshare%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Flow Repository",
+        "description": "FlowRepository is a database of flow cytometry experiments where you can query and download data collected and annotated according to the MIFlowCyt standard. It is primarily used as a data deposition place for experimental findings published in peer-reviewed journals in the flow cytometry field.",
+        "abstract": "Flow Repository is a repository that includes flow cytometry data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "http://flowrepository.org/",
+        "identifier": "Flow Repository",
+        "dataset": {
+            "name": "Flow Repository datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Flow Repository%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "FungiDB",
+        "description": "FungiDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "FungiDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://fungidb.org/fungidb/app",
+        "identifier": "FungiDB",
+        "dataset": {
+            "name": "FungiDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22FungiDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "GiardiaDB",
+        "description": "GiardiaDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "GiardiaDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://giardiadb.org/giardiadb/app",
+        "identifier": "GiardiaDB",
+        "dataset": {
+            "name": "GiardiaDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22GiardiaDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Harvard Dataverse",
+        "description": "The Harvard Dataverse Repository is a free data repository open to all researchers from any discipline, both inside and outside of the Harvard community, where you can share, archive, cite, access, and explore research data. Each individual Dataverse collection is a customizable collection of datasets (or a virtual repository) for organizing, managing, and showcasing datasets.",
+        "abstract": "Harvard Dataverse is a GREI repository that includes most data types and domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://dataverse.harvard.edu/",
+        "identifier": "Harvard Dataverse",
+        "dataset": {
+            "name": "Harvard Dataverse datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Harvard Dataverse%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "HostDB",
+        "description": "HostDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "HostDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://hostdb.org/hostdb/app",
+        "identifier": "HostDB",
+        "dataset": {
+            "name": "HostDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22HostDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "HuBMAP",
+        "description": "HuBMAP is part of a rich ecosystem of established and emerging atlasing programs supported by NIH and globally by other funding organizations, many of which are focused on specific organs or diseases. HuBMAP has connected with these programs to ensure data interoperability, avoid duplication of work, and leverage and synergize gained knowledge. The consortium has organized a number of events to bring together these communities to discuss topics of shared interest and is committed to improving coordination and collaboration among different programs. In addition, many of the HuBMAP PIs had been or are still actively participating in these efforts, helping with cross-pollination and advancing our global understanding. HuBMAP, as its name implies, was specifically initiated to resolve the challenge of building integrated, comprehensive, high-resolution spatial maps of human tissues and organs, which has resulted in HuBMAP providing leadership in the ecosystem around techniques for integrating disparate, multi-dimensional and multi-scale datasets, the development of a Common Coordinate Framework (CCF) for integrating data across many individuals, and the development and validation of these assays. To further increase interoperability, HuBMAP has adopted a number of standards and processes developed by other domain expert consortia, working and is actively involved in the knowledge exchange. The consortium sees itself as an integral part of the ecosystem, sharing its strengths and actively contributing to the community.",
+        "abstract": "The Human BioMolecular Atlas Program (HuBMAP) is an NIH supported repository that includes multimodal data of healthy cells in the human body.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://hubmapconsortium.org/",
+        "identifier": "HuBMAP",
+        "dataset": {
+            "name": "HuBMAP datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22HuBMAP%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Human Cell Atlas",
+        "description": "Thanks to new single cell genomics and spatial imaging technologies developed since the late 2000s and early 2010s, it is now possible to measure gene expression profiles in individual cells. These large scale data can be used with machine learning algorithms to decipher how the cells differ from and interact with their neighbors, and how they form and function in the tissue. This now allows scientists to identify and understand cell types in unprecedented detail, resolution and breadth. The Human Cell Atlas (HCA) is an international group of researchers using a combination of these new technologies to create cellular reference maps with the position, function and characteristics of every cell type in the human body.",
+        "abstract": "The Human Cell Atlas is a repository that includes multimodal data of cells in the human body.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://www.humancellatlas.org/",
+        "identifier": "Human Cell Atlas",
+        "dataset": {
+            "name": "Human Cell Atlas datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Human Cell Atlas%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "ImmPort",
+        "description": "The ImmPort project provides advanced information technology support in the archiving and exchange of scientific data for the diverse community of life science researchers supported by NIAID/DAIT and serves as a long-term, sustainable archive of research and clinical data. The core component of ImmPort is an extensive data warehouse containing experimental data and metadata describing the purpose of the study and the methods of data generation. The functionality of ImmPort will be expanded continuously over the life of the BISC project to accommodate the needs of expanding research communities. The shared research and clinical data, as well as the analytical tools in ImmPort are available to any researcher after registration.",
+        "abstract": "The Immunology Database and Analysis Portal (ImmPort) is a NIAID supported IID repository that includes multimodal immunological data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://www.immport.org/shared/home",
+        "identifier": "ImmPort - Bioinformatics For the Future of Immunology",
+        "dataset": {
+            "name": "ImmPort datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22ImmPort%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "ImmuneSpace",
+        "description": "The Human Immunology Project Consortium (HIPC) program was established in 2010, and renewed in 2015 and in 2022, by the NIAID Division of Allergy, Immunology, and Transplantation as part of the overall NIAID focus on human immunology. Through this program, well-characterized human cohorts are studied using a variety of modern analytic tools, including multiplex transcriptional, cytokine, and proteomic assays; multiparameter phenotyping of leukocyte subsets; assessment of leukocyte functional status; and multiple computational methods.Through the HIPC program, centralized research resources and a comprehensive, centralized database will be constructed for use by the greater scientific community. The information gained from the HIPC program will provide a comprehensive understanding of the human immune system and its regulation and will reveal novel associations between components of the immune system and other biological systems, identify novel immune mediators and pathways, establish predictors of vaccine safety in different populations, and enable the rapid evaluation of different vaccine formulations and administration regimens in human populations. This knowledge base will also serve as a foundation for the future study of immune-mediated diseases in the human, such as allergy, asthma, transplant rejection, autoimmune diseases, and a variety of inflammatory diseases.",
+        "abstract": "ImmuneSpace is a NIAID supported IID repository that includes immune data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://www.immunespace.org/",
+        "identifier": "ImmuneSpace",
+        "dataset": {
+            "name": "ImmuneSpace datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22ImmuneSpace%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "LINCS",
+        "description": "The BD2K-LINCS DCIC is comprised of four major components: Integrated Knowledge Environment (IKE), Data Science Research (DSR), Community Training and Outreach (CTO) and Consortium Coordination and Administration (CCA). The Center is constructing a high-capacity scalable integrated knowledge environment enabling federated access, intuitive querying and integrative analysis and visualization across all LINCS resources and many additional external data types from other relevant resources. The Center’s data science research projects are aimed at addressing various data integration and intracellular molecular regulatory network challenges. The Center aims to develop: 1) methods to connect cellular and organismal phenotypes with molecular cellular signatures, and 2) novel data visualization methods for dynamically interacting with large-genomics and proteomics datasets.",
+        "abstract": "The Library of Integrated Network-Based Cellular Signatures (LINCS) Data Portal is an NIH supported repository that includes gene expression and other cellular processes data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://lincsportal.ccs.miami.edu/",
+        "identifier": "LINCS",
+        "dataset": {
+            "name": "LINCS datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22LINCS%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "MalariaGEN",
+        "description": "MalariaGEN is an international network of researchers focused on understanding the genetic variations in humans, Plasmodium parasites, and Anopheles mosquitoes to better control malaria transmission. By leveraging advanced genomic tools and techniques, MalariaGEN aims to uncover how genetic differences influence susceptibility to malaria, track insecticide resistance in mosquitoes, and detect drug resistance in parasites. The network's efforts are crucial for developing new interventions and maintaining the effectiveness of existing ones. Coordinated from the Wellcome Sanger Institute in the UK, MalariaGEN collaborates with over 200 partners across more than 40 countries, primarily in malaria-endemic regions.",
+        "abstract": "Malaria Genomic Epidemiology Network (MalariaGEN) is a IID repository that includes clinical data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Varied",
+        "url": "https://www.malariagen.net/",
+        "identifier": "MalariaGEN",
+        "dataset": {
+            "name": "MalariaGEN datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22MalariaGEN%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "MassIVE",
+        "description": "MassIVE is a community resource developed by the NIH-funded Center for Computational Mass Spectrometry to promote the global, free exchange of mass spectrometry data. MassIVE datasets can be assigned ProteomeXchange accessions to satisfy publication requirements.",
+        "abstract": "MassIVE is a NIH supported Basic science repository that includes mass spectrometry data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp",
+        "identifier": "MassIVE",
+        "dataset": {
+            "name": "MassIVE datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22MassIVE%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Mendeley Data",
+        "description": "Mendeley Data, a product of Elsevier, is one of the newest entrants in the research data repository landscape; the platform was released in April 2016. Mendeley Data is a general-purpose repository, allowing researchers in any field to upload and publish research data. Mendeley Data also allows researchers to share unpublished data privately with research collaborators.",
+        "abstract": "Mendeley Data is a GREI repository that includes most data types and domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://data.mendeley.com/",
+        "identifier": "Mendeley",
+        "dataset": {
+            "name": "Mendeley Data datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Mendeley Data%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "MicrobiomeDB",
+        "description": "MicrobiomeDB was developed as a discovery tool that empowers researchers to fully leverage their experimental metadata to construct queries that interrogate microbiome datasets.",
+        "abstract": "MicrobiomeDB is a NIAID supported repository that includes clinical microbiome data and analysis tools.",
+        "genre": "IID",
+        "conditionsOfAccess": "Open",
+        "url": "https://microbiomedb.org/mbio/app",
+        "identifier": "MicrobiomeDB",
+        "dataset": {
+            "name": "MicrobiomeDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22MicrobiomeDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "MicrosporidiaDB",
+        "description": "MicrosporidiaDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "MicrosporidiaDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://microsporidiadb.org/micro/app",
+        "identifier": "MicrosporidiaDB",
+        "dataset": {
+            "name": "MicrosporidiaDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22MicrosporidiaDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "NCBI BioProject",
+        "description": "A BioProject is a collection of biological data related to a single initiative, originating from a single organization or from a consortium. A BioProject record provides users a single place to find links to the diverse data types generated for that project.",
+        "abstract": "NCBI BioProject is a NIH supported generalist repository that includes multiomic data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "https://www.ncbi.nlm.nih.gov/bioproject/",
+        "identifier": "NCBI BioProject",
+        "dataset": {
+            "name": "NCBI BioProject datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22NCBI BioProject%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "NCBI GEO",
+        "description": "GEO is a public functional genomics data repository supporting MIAME-compliant data submissions. Array- and sequence-based data are accepted. Tools are provided to help users query and download experiments and curated gene expression profiles.",
+        "abstract": "Gene Expression Omnibus (GEO) is an NIH supported repository that includes microarray and next-generation sequencing data for high-throughput functional genomics for most domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/",
+        "identifier": "NCBI GEO",
+        "dataset": {
+            "name": "NCBI GEO datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22NCBI GEO%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "NCBI SRA",
+        "description": "Sequence Read Archive(SRA) data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data. The archive accepts data from all branches of life as well as metagenomic and environmental surveys. SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis.",
+        "abstract": "Sequence Read Archive (SRA) is the NIH supported largest publicly available repository of high throughput sequencing data that includes raw sequencing data and alignment information for most domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://www.ncbi.nlm.nih.gov/sra",
+        "identifier": "NCBI SRA",
+        "dataset": {
+            "name": "NCBI SRA datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22NCBI SRA%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "NICHD Data and Specimen Hub (DASH)",
+        "description": "The NICHD Data and Specimen Hub(DASH) is a centralized resource that allows researchers to share and access de-identified data from studies funded by NICHD. DASH also serves as a portal for requesting biospecimens from selected DASH studies. DASH serves as a mechanism for NICHD-funded extramural and intramural investigators to share research data from studies in accordance with NIH Data Sharing Policies. Many of the NICHD-funded research studies also collected biospecimens that are stored in the NICHD Contracted Biorepository. To provide access to these biospecimens, DASH will store and make available to other investigators the biospecimen catalog for studies that have associated research data in DASH. By supporting data and biospecimen access through DASH, NICHD aims to accelerate scientific findings and improve human health.",
+        "abstract": "The Data and Specimen Hub (DASH) is an NICHD supported repository that includes clinical data and specimens.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Restricted",
+        "url": "https://dash.nichd.nih.gov/",
+        "identifier": "NICHD DASH",
+        "dataset": {
+            "name": "NICHD Data and Specimen Hub (DASH) datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22NICHD Data and Specimen Hub (DASH)%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "OmicsDI",
+        "description": "The Omics Discovery Index (OmicsDI) provides a knowledge discovery framework across heterogeneous omics data (genomics, proteomics, transcriptomics and metabolomics).",
+        "abstract": "Omics Discovery Index (OmicsDI) is a generalist repository that is part of ELIXIR infrastructure that includes multi-omics data for most domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://www.omicsdi.org/",
+        "identifier": "Omics Discovery Index (OmicsDI)",
+        "dataset": {
+            "name": "OmicsDI datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22OmicsDI%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "PiroplasmaDB",
+        "description": "PiroplasmaDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "PiroplasmaDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://piroplasmadb.org/piro/app",
+        "identifier": "PiroplasmaDB",
+        "dataset": {
+            "name": "PiroplasmaDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22PiroplasmaDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "PlasmoDB",
+        "description": "PlasmoDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "PlasmoDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://plasmodb.org/plasmo/app",
+        "identifier": "PlasmoDB",
+        "dataset": {
+            "name": "PlasmoDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22PlasmoDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Project Tycho",
+        "description": "The Project Tycho Repository for Global Health Data aims to advance the availabilty and use of data for improving global health. Project Tycho unlocks global health data to a rapidly growing user community of over 3,000 researchers, students, journalists, officials, and others in over 90 countries. A Project Tycho dataset includes case counts for a disease condition in a country. Data for Project Tycho datasets can come from various sources and have been pre-processed into the standard Project Tycho data format.",
+        "abstract": "Project TYCHO is a NIH supported IID repository that includes clinical data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://www.tycho.pitt.edu/",
+        "identifier": "Project Tycho",
+        "dataset": {
+            "name": "Project Tycho datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Project Tycho%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Protein Data Bank",
+        "description": "RCSB PDB (RCSB.org) is the US data center for the global Protein Data Bank (PDB) archive of 3D structure data for large biological molecules (proteins, DNA, and RNA) essential for research and education in fundamental biology, health, energy, and biotechnology. The RSCB PDB hosts ~240 K structures from the PDB archive; however, only the subset of the RSCB PDB that was funded by NIAID or has a potentially pathogenic organism is included in the Discovery Portal.",
+        "abstract": "Protein Data Bank is a NIAID supported generalist repository that includes structure data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "https://www.rcsb.org/",
+        "identifier": "Protein Data Bank",
+        "dataset": {
+            "name": "Protein Data Bank datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Protein Data Bank%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Qiita",
+        "description": "Qiita(canonically pronounced cheetah) is an entirely open-source microbial study management platform. It allows users to keep track of multiple studies with multiple 'omics data. Additionally, Qiita is capable of supporting multiple analytical pipelines through a 3rd-party plugin system, allowing the user to have a single entry point for all of their analyses. Qiita provides database and compute resources to the global community, alleviating the technical burdens that are typically limiting for researchers studying microbial ecology(e.g. familiarity with the command line or access to compute power).Qiita's platform allows for quick reanalysis of the datasets that have been deposited using the latest analytical technologies. This means that Qiita's internal datasets are living data that is periodically re-annotated according to current best practices.",
+        "abstract": "Qiita is a repository that includes microbiome data and analysis tools.",
+        "genre": "IID",
+        "conditionsOfAccess": "Unknown",
+        "url": "https://qiita.ucsd.edu/",
+        "identifier": "Qiita",
+        "dataset": {
+            "name": "Qiita datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Qiita%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "ReframeDB",
+        "description": "The ReFRAME collection of 12,000 compounds is a best-in-class drug repurposing library containing nearly all small molecules that have reached clinical development or undergone significant preclinical profiling. The purpose of such a screening collection is to enable rapid testing of compounds with demonstrated safety profiles in new indications, such as neglected or rare diseases, where there is less commercial motivation for expensive research and development.",
+        "abstract": "ReframeDB is a Calibr maintained repository that has a screening set of 12,000 compounds for drug repositioning.",
+        "genre": "IID",
+        "conditionsOfAccess": "Restricted",
+        "url": "https://reframedb.org/",
+        "identifier": "ReframeDB",
+        "dataset": {
+            "name": "ReframeDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22ReframeDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "SAGE ARK Portal",
+        "description": "The SAGE Arthritis and Autoimmune and Related Diseases (ARK Portal) is a public data repository that stores and shares data and research knowledge generated by a network of research teams focused on arthritis and autoimmune and related diseases. The ARK Portal is funded by the National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), and the National Institute of Allergy and Infectious Diseases (NIAID). It is developed and maintained by Sage Bionetworks.",
+        "abstract": "SAGE ARK Portal is a NIAID supported IID repository that includes immune data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Varied",
+        "url": "https://arkportal.synapse.org/",
+        "identifier": "SAGE ARK Portal",
+        "dataset": {
+            "name": "SAGE ARK Portal datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22SAGE ARK Portal%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "The Network Data Exchange (NDEx)",
+        "description": "The NDEx Project provides an open-source framework where scientists and organizations can store, share, manipulate, and publish biological network knowledge. One of the goals of the project is to create a home for models that are currently available only as figures, tables, or supplementary information, such as networks produced via systematic mining and integration of large-scale molecular data. The NDEx project does not compete with existing pathway and interaction databases, such as Pathway Commons, KEGG, or Reactome; instead, NDEx provides a novel, common distribution channel for these efforts, preserving their identity and attribution rather than subsuming them.",
+        "abstract": "The Network Data Exchange (NDEx) is a NIH supported generalist repository that includes generalist data.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Open",
+        "url": "https://www.ndexbio.org/",
+        "identifier": "NDEx",
+        "dataset": {
+            "name": "The Network Data Exchange (NDEx) datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22The Network Data Exchange (NDEx)%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "ToxoDB",
+        "description": "ToxoDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "ToxoDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://toxodb.org/toxo/app",
+        "identifier": "ToxoDB",
+        "dataset": {
+            "name": "ToxoDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22ToxoDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "TrichDB",
+        "description": "TrichDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "TrichDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://trichdb.org/trichdb/app",
+        "identifier": "TrichDB",
+        "dataset": {
+            "name": "TrichDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22TrichDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "TriTrypDB",
+        "description": "TriTrypDB is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "TriTrypDB is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://tritrypdb.org/tritrypdb/app",
+        "identifier": "TriTrypDB",
+        "dataset": {
+            "name": "TriTrypDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22TriTrypDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "VDJServer",
+        "description": "VDJServer is a free, scalable resource for performing immune repertoire analysis and sharing data. VDJServer Community Data Portal is part of the AIRR Data Commons. Funded by a National Institute of Allergy and Infectious Diseases research grant (#1R01A1097403), the VDJServer project is led by The University of Texas Southwestern (UTSW) Medical Center in collaboration with the J. Craig Venter Institute and Yale University. The Texas Advanced Computing Center (TACC) at The University of Texas at Austin leads the cyberinfrastructure implementation, including the high performance computing (HPC) systems, storage, and software solutions.",
+        "abstract": "VDJServer is a NIAID supported repository that includes immune repertoire sequencing data.",
+        "conditionsOfAccess": "Open",
+        "url": "https://vdj-staging.tacc.utexas.edu/community/",
+        "identifier": "VDJServer",
+        "dataset": {
+            "name": "VDJServer datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22VDJServer%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "VectorBase",
+        "description": "VectorBase is a component website of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) and is constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). These resources stem from support initially provided for the Plasmodium Genome Database by the Burroughs Wellcome Fund (2000-2) and a research grant from NIAID (2002-6). The BRC program was initiated in 2004 to provide public access to computational platforms and analysis tools enabling collection, management, integration and mining of genomic information and other large-scale datasets relevant to infectious disease pathogens including their interaction with mammalian hosts and invertebrate vectors of disease.",
+        "abstract": "VectorBase is a NIAID supported IID repository that includes genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://vectorbase.org/vectorbase/app",
+        "identifier": "VectorBase",
+        "dataset": {
+            "name": "VectorBase datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22VectorBase%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "VEuPath Collections",
+        "description": "VEuPath Collections is the collection of component websites of the Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) that have been constructed using the same infrastructure, data analysis, and loading procedures. VEuPathDB is one of two bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). \nThe VEuPath Collections include the following component websites as individual collections: \nAmoebaDB \nCryptoDB \nGiardiaDB \nHostDB \nPlasmoDB \nVectorBase \nFungiDB \nMicrosporidiaDB \nToxoDB \nTrichDB \nTriTrypDB \nPiroplasmaDB.",
+        "abstract": "VEuPathCollections are NIAID supported IID component repositories of VEuPathDB which include collections of genomic data.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://veupathdb.org/veupathdb/app/",
+        "identifier": "VEuPathDB",
+        "dataset": {
+            "name": "VEuPath Collections datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22VEuPath Collections%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "VEuPathDB",
+        "description": "The Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) is one of two Bioinformatics Resource Centers (BRCs) funded by the US National Institute of Allergy and Infectious Diseases (NIAID), with additional support from the Wellcome Trust (UK). VEuPathDB provides access to diverse genomic and other large scale datasets related to eukaryotic pathogens and invertebrate vectors of disease. Organisms supported by this resource include (but are not limited to) the NIAID list of emerging and re-emerging infectious diseases.",
+        "abstract": "The Eukaryotic Pathogen, Vector and Host Informatics Resource (VEuPathDB) is a NIAID supported IID repository that includes genomic and phenotypic data for eukaryotic pathogens and invertebrate vectors of infectious disease.",
+        "genre": "IID",
+        "conditionsOfAccess": "Closed",
+        "url": "https://veupathdb.org/veupathdb/app/",
+        "identifier": "VEuPathDB",
+        "dataset": {
+            "name": "VEuPathDB datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22VEuPathDB%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Vivli",
+        "description": "Vivli is an independent non-profit organization launched in 2016. Vivli evolved from a project of The Multi-Regional Clinical Trials Center of Brigham and Women’s Hospital and Harvard(MRCT Center) to enhance access to clinical trials data by promoting data sharing and transparency. In 2013, the MRCT Center and a diverse group of global stakeholders embarked on a mission to define, design, and launch an innovative platform solution for global clinical trial data sharing. The Vivli platform provides access to anonymized individual participant-level data(IPD) or the raw data that is collected during a clinical trial. The clinical trials represented in Vivli are global and contributed by a diverse group of data contributors. By serving as a global trusted platform, Vivli increases the discoverability of available data in the wider research ecosystem, and increases the overall capacity worldwide for effective data sharing, aggregation, re-use, and novel analysis of valuable clinical research data to advance science and improve public health. The Vivli platform is a cloud-based platform that consists of a dynamic search engine, a data repository, and a secure research environment.",
+        "abstract": "Vivli is a GREI repository that includes most data types and domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Restricted",
+        "url": "https://vivli.org/",
+        "identifier": "Vivli",
+        "dataset": {
+            "name": "Vivli datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Vivli%22%29%29&from=1"
+        }
+    },
+    {
+        "@type": "nde:ResourceCatalog",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "date": "2026-04-14",
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "name": "Zenodo",
+        "description": "The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013.",
+        "abstract": "Zenodo is a GREI repository that includes most data types and domains.",
+        "genre": "Generalist",
+        "conditionsOfAccess": "Varied",
+        "url": "https://zenodo.org/",
+        "identifier": "Zenodo",
+        "dataset": {
+            "name": "Zenodo datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+            "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22Zenodo%22%29%29&from=1"
+        }
+    }
+]

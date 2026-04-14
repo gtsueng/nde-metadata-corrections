@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "The Network Data Exchange (NDEx)",
+    "description": "The NDEx Project provides an open-source framework where scientists and organizations can store, share, manipulate, and publish biological network knowledge. One of the goals of the project is to create a home for models that are currently available only as figures, tables, or supplementary information, such as networks produced via systematic mining and integration of large-scale molecular data. The NDEx project does not compete with existing pathway and interaction databases, such as Pathway Commons, KEGG, or Reactome; instead, NDEx provides a novel, common distribution channel for these efforts, preserving their identity and attribution rather than subsuming them.",
+    "abstract": "The Network Data Exchange (NDEx) is a NIH supported generalist repository that includes generalist data.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Open",
+    "url": "https://www.ndexbio.org/",
+    "identifier": "NDEx",
+    "dataset": {
+        "name": "The Network Data Exchange (NDEx) datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22The Network Data Exchange (NDEx)%22%29%29&from=1"
+    }
+}

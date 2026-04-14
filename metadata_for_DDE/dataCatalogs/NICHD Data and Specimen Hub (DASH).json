@@ -1,0 +1,28 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "NICHD DASH",
+    "description": "The NICHD Data and Specimen Hub(DASH) is a centralized resource that allows researchers to share and access de-identified data from studies funded by NICHD. DASH also serves as a portal for requesting biospecimens from selected DASH studies. DASH serves as a mechanism for NICHD-funded extramural and intramural investigators to share research data from studies in accordance with NIH Data Sharing Policies. Many of the NICHD-funded research studies also collected biospecimens that are stored in the NICHD Contracted Biorepository. To provide access to these biospecimens, DASH will store and make available to other investigators the biospecimen catalog for studies that have associated research data in DASH. By supporting data and biospecimen access through DASH, NICHD aims to accelerate scientific findings and improve human health.",
+    "abstract": "The Data and Specimen Hub (DASH) is an NICHD supported repository that includes clinical data and specimens.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Restricted",
+    "url": "https://dash.nichd.nih.gov/",
+    "identifier": "NICHD Data and Specimen Hub (DASH)",
+    "dataset": {
+        "name": "NICHD DASH datasets ingested into the NIAID Data Ecosystem Discovery Portal",
+        "url": "https://data.niaid.nih.gov/search?filters=%28date%3A%5B%222000-01-01%22+TO+%222026-12-31%22%5D+OR+%28-_exists_%3A%28%22date%22%29%29%29+AND+%28includedInDataCatalog.name%3A%28%22NICHD DASH%22%29%29&from=1"
+    }
+}

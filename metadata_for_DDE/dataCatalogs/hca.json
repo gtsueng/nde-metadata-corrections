@@ -1,0 +1,25 @@
+{
+    "@type": "nde:ResourceCatalog",
+    "@context": {
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "http://schema.org/",
+        "niaid": "https://discovery.biothings.io/ns/niaid/",
+        "nde": "https://discovery.biothings.io/ns/nde/"
+    },
+    "date": "2026-04-14",
+    "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Data Discovery Engine",
+        "url": "https://discovery.biothings.io/"
+    },
+    "name": "Human Cell Atlas",
+    "description": "Thanks to new single cell genomics and spatial imaging technologies developed since the late 2000s and early 2010s, it is now possible to measure gene expression profiles in individual cells. These large scale data can be used with machine learning algorithms to decipher how the cells differ from and interact with their neighbors, and how they form and function in the tissue. This now allows scientists to identify and understand cell types in unprecedented detail, resolution and breadth. The Human Cell Atlas (HCA) is an international group of researchers using a combination of these new technologies to create cellular reference maps with the position, function and characteristics of every cell type in the human body.",
+    "abstract": "The Human Cell Atlas is a repository that includes multimodal data of cells in the human body.",
+    "genre": "Generalist",
+    "conditionsOfAccess": "Varied",
+    "url": "https://www.humancellatlas.org/",
+    "identifier": "Human Cell Atlas",
+    "source": "hca"
+}
