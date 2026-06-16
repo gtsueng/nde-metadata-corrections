@@ -1,0 +1,827 @@
+[
+    {
+        "name": "Human Microbiome Project Portal",
+        "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources",
+        "identifier": "https://portal.hmpdacc.org/projects/t",
+        "alternateName": "HMP",
+        "license": "https://data.niaid.nih.gov/knowledge-center/retired-resources",
+        "conditionsOfAccess": "Open",
+        "usageInfo": {
+            "@type": "CreativeWork",
+            "name": "Conditions of use",
+            "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+        },
+        "abstract": "Human Microbiome Project Portal is a NIH supported IID repository that includes genomic data.",
+        "description": "The overall mission of the HMP was to generate resources to facilitate characterization of the human microbiota to further our understanding of how the microbiome impacts human health and disease. The initial phase of the project, HMP1, established in 2008, characterized the microbial communities from 300 healthy individuals, across several different sites on the human body: nasal passages, oral cavity, skin, gastrointestinal tract, and urogenital tract. 16S rRNA sequencing was performed to characterize the complexity of microbial communities at each body site, and to begin to ask whether there is a core healthy microbiome. Metagenomic whole genome shotgun (wgs) sequencing provided insights into the functions and pathways present in the human microbiome. The second phase of the HMP, the iHMP, will create integrated longitudinal datasets from both the microbiome and host from three different cohort studies of microbiome-associated conditions using multiple \u2018omics technologies. Each of these study groups has engaged in providing new computational tools and integrative molecular perspectives on microbial activity during dysbiosis. As a result of creating these multi\u2019omic data resources, the iHMP has opened up new opportunities for data integration in the human microbiome.",
+        "collectionType": "Knowledge Base",
+        "hasAPI": true,
+        "hasDownload": "Record-level",
+        "isAccessibleForFree": true,
+        "inLanguage": [
+            {
+                "@type": "Language",
+                "name": "English"
+            }
+        ],
+        "genre": "IID",
+        "dateCreated": "2008-01-14",
+        "creativeWorkStatus": "Retired",
+        "citation": [
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Virus Variation Resource - improved response to emergent viral outbreaks.",
+                "pmid": "27899678"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Ethical, legal, and social considerations in conducting the Human Microbiome Project.",
+                "pmid": "18971311"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Virus Variation Resource--recent updates and future directions.",
+                "pmid": "24304891"
+            }
+        ],
+        "@type": "nde:ResourceCatalog",
+        "date": "2026-06-16",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "funding": [
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG004858 \u00a0 ",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004906",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004863",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004872\u00a0 ",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004876",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004908",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004885",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004872",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004881",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG004854",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG004895",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005065",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005077",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005820",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005811",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005824",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005826",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005816",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005970",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21HG005964",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005975",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005978",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005969",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005966",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U01HG004866",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004853",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Human Genome Research Institute",
+                    "alternateName": "NHGRI",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005171",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Human Genome Research Institute",
+                    "alternateName": "NHGRI",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004900",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Human Genome Research Institute",
+                    "alternateName": "NHGRI",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54HG004968",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54AI084844",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54HG004973",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54HG004969",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH3DK083993",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2DK083981",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH3DK083990",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2AI083265",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2AI083266",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2AI083264",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH3CA140233",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2AR057503",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2DK083994",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2DK083991",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2DK083982",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2DK083980",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "UH2AI083263",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "1UH2AR057506",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "NIH Office of the Director",
+                    "alternateName": "OD",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004856",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "National Human Genome Research Institute",
+                        "alternateName": "NHGRI",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG004877",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "National Human Genome Research Institute",
+                        "alternateName": "NHGRI",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HG005172",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "National Human Genome Research Institute",
+                        "alternateName": "NHGRI",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54DE023786 \u00a0",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "National Center for Complementary and Integrative Health",
+                        "alternateName": "NCCIH",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54DE023789",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+                        "alternateName": "NIDDK",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "U54DE023798",
+                "funder": [
+                    {
+                        "@type": "Organization",
+                        "name": "National Center for Complementary and Integrative Health",
+                        "alternateName": "NCCIH",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "National Center for Complementary and Integrative Health",
+                        "alternateName": "NCCIH",
+                        "parentOrganization": "NIH"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "NIH Office of the Director",
+                        "alternateName": "OD",
+                        "parentOrganization": "NIH"
+                    }
+                ]
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "HMP Consortium"
+            },
+            {
+                "@type": "Organization",
+                "name": "The Broad Institute"
+            },
+            {
+                "@type": "Organization",
+                "name": "Baylor College of Medicine"
+            },
+            {
+                "@type": "Organization",
+                "name": "Washington University School of Medicine"
+            },
+            {
+                "@type": "Organization",
+                "name": "J. Craig Venter Institute"
+            },
+            {
+                "@type": "Organization",
+                "name": "Virginia Commonwealth University"
+            },
+            {
+                "@type": "Organization",
+                "name": "Stanford University"
+            },
+            {
+                "@type": "Organization",
+                "name": "Jackson Laboratory for Genomic Medicine"
+            },
+            {
+                "@type": "Organization",
+                "name": "Institute for Genome Sciences",
+                "parentOrganization": "University of Maryland Baltimore "
+            }
+        ],
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "collectionSize": [
+            {
+                "minValue": 18,
+                "unitText": "studies",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 48,
+                "unitText": "primary site",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 31596,
+                "unitText": "samples",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 161265,
+                "unitText": "files",
+                "@type": "PropertyValue"
+            }
+        ],
+        "distribution": [
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://data.niaid.nih.gov/knowledge-center/retired-resources",
+                "dateModified": "2024-05-21"
+            }
+        ],
+        "sdPublisher": [
+            {
+                "@type": "DataCatalog",
+                "name": "Fairsharing.org",
+                "url": "https://doi.org/10.25504/FAIRsharing.q04phv"
+            },
+            {
+                "@type": "DataCatalog",
+                "name": "Data Discovery Engine",
+                "url": "https://discovery.biothings.io/portal/nde"
+            }
+        ],
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q3922751"
+        ],
+        "isBasedOn": [
+            {
+                "@type": "SoftwareSourceCode",
+                "name": "API for the IGS data portal",
+                "url": "https://github.com/IGS/portal-api"
+            },
+            {
+                "@type": "SoftwareSourceCode",
+                "name": "UI for IGS project portals such as the HMP data portal found",
+                "url": "https://github.com/IGS/portal-ui"
+            },
+            {
+                "@type": "ResearchProject",
+                "name": "HMP1",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            },
+            {
+                "@type": "ResearchProject",
+                "name": "iHMP",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            }
+        ],
+        "hasPart": [
+            {
+                "@type": "ResourceCatalog",
+                "name": "HMP Tools and Technology",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            },
+            {
+                "@type": "WebSite",
+                "name": "HMP legacy data browser",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            }
+        ],
+        "citedBy": [
+            {
+                "@type": "Collection",
+                "name": "NIH Human Microbiome Project Publications",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            }
+        ],
+        "isPartOf": [
+            {
+                "@type": "WebSite",
+                "name": "NIH Human Microbiome Project",
+                "url": "https://data.niaid.nih.gov/knowledge-center/retired-resources"
+            }
+        ],
+        "keywords": [
+            "http://purl.obolibrary.org/obo/NCIT_C12424",
+            "http://purl.obolibrary.org/obo/NCIT_C12421",
+            "http://purl.obolibrary.org/obo/NCIT_C12470",
+            "http://purl.obolibrary.org/obo/NCIT_C34082",
+            "http://purl.obolibrary.org/obo/NCIT_C12810"
+        ],
+        "topicCategory": [
+            "http://edamontology.org/topic_3697",
+            "http://edamontology.org/topic_2815",
+            "http://edamontology.org/topic_2259"
+        ],
+        "species": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        ],
+        "measurementTechnique": [
+            "http://www.ebi.ac.uk/efo/EFO_0030055",
+            "http://purl.obolibrary.org/obo/NCIT_C15273",
+            "http://purl.obolibrary.org/obo/CHMO_0000524",
+            "http://purl.obolibrary.org/obo/NCIT_C49019",
+            "http://purl.obolibrary.org/obo/NCIT_C153189",
+            "http://purl.obolibrary.org/obo/NCIT_C116555"
+        ],
+        "variableMeasured": [
+            "http://purl.obolibrary.org/obo/OHMI_0000466",
+            "http://purl.obolibrary.org/obo/NCIT_C17747",
+            "http://purl.obolibrary.org/obo/NCIT_C18276",
+            "http://purl.obolibrary.org/obo/NCIT_C16977",
+            "http://purl.obolibrary.org/obo/NCIT_C128361"
+        ],
+        "healthCondition": [
+            "http://purl.obolibrary.org/obo/OHMI_0000461",
+            "http://purl.obolibrary.org/obo/MONDO_0005265",
+            "http://purl.obolibrary.org/obo/MONDO_0005148",
+            "http://purl.obolibrary.org/obo/NCIT_C25742",
+            "http://purl.obolibrary.org/obo/NCIT_C90491",
+            "http://purl.obolibrary.org/obo/NCIT_C92861"
+        ],
+        "about": [
+            {
+                "name": "Experiment",
+                "url": "http://purl.obolibrary.org/obo/NCIT_C42790",
+                "description": "Not distinct from study as a schema",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "MolecularEntity",
+                "url": "https://schema.org/MolecularEntity",
+                "description": "A subclass of BioChemEntity",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "Sample",
+                "url": "http://www.w3.org/ns/sosa/Sample",
+                "description": "Not distinct from Specimen as a schema. For schema consider, https://bioschemas.org/types/BioSample/",
+                "@type": "DefinedTerm"
+            }
+        ]
+    }
+]
