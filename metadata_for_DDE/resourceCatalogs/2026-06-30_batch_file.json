@@ -1,0 +1,805 @@
+[
+    {
+        "name": "Stanford University HIV Drug Resistance Database (HIVDB)",
+        "url": "https://hivdb.stanford.edu/",
+        "identifier": "https://hivdb.stanford.edu/",
+        "alternateName": "HIVDB, Stanford University HIV Drug Resistance Database",
+        "license": "https://hivdb.stanford.edu/pages/FAQ/FAQ.html",
+        "conditionsOfAccess": "Open",
+        "abstract": "Stanford University HIV Drug Resistance Database (HIVDB) is a NIAID supported IID repository that includes multiomic data.",
+        "description": "Highly effective antiretroviral (ARV) drugs that inhibit HIV replication have been developed and made available at cost in many parts of the world. However, one of the main challenges in treating HIV it mutates at high rates and develops drug resistance. Both acquired (ADR) and transmitted drug resistance (TDR) increase the risk of treatment failure, HIV disease progression, and the need for costlier second- and third-line treatment regimens.\n\nThe Stanford HIV Drug Resistance Database (HIVDB) is an essential resource for public health officials monitoring ADR and TDR, for scientists developing new ARV drugs, and for HIV care providers managing patients with HIVDR. Researchers studying HIVDR also use HIVDB to place their findings in the context of previous studies and to perform meta-analyses that require data from large numbers of studies, making it possible to discover new knowledge that cannot be discovered from a single study.",
+        "collectionType": "Database",
+        "hasAPI": true,
+        "hasDownload": "All content",
+        "isAccessibleForFree": true,
+        "inLanguage": [
+            {
+                "@type": "Language",
+                "name": "English"
+            }
+        ],
+        "genre": "IID",
+        "dateModified": "2026.02.18",
+        "dateCreated": "1998-10-01",
+        "citation": [
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Human immunodeficiency virus reverse transcriptase and protease sequence database.",
+                "pmid": "12520007"
+            }
+        ],
+        "@type": "nde:ResourceCatalog",
+        "date": "2026-06-30",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "funding": [
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "1R01AI46148-01",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "1R01AI68581",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "PO1",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of General Medical Sciences",
+                    "alternateName": "NIGMS",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R21AI131918",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R24AI136618",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R01HL083254",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Heart Lung and Blood Institute",
+                    "alternateName": "NHBLI",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "NSFDEB-BSF",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Science Foundation",
+                    "alternateName": "NSF"
+                }
+            }
+        ],
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Robert W. Shafer",
+                "givenName": "Robert",
+                "familyName": "Shafer",
+                "identifier": "https://orcid.org/0000-0003-2513-2643",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University Division of Infectious Diseases"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Soo-Yon Rhee",
+                "givenName": "Soo-Yon",
+                "familyName": "Rhee",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University Division of Infectious Diseases"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Philip Tzou",
+                "givenName": "Philip",
+                "familyName": "Tzou",
+                "alternateName": "Philip L. Tzou",
+                "identifier": "https://orcid.org/0000-0002-2876-1552",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University Division of Infectious Diseases"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Kaiming Tao",
+                "givenName": "Kaiming",
+                "familyName": "Tao",
+                "identifier": "https://orcid.org/0000-0001-8731-1271",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University Division of Infectious Diseases"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Jonathan M. Schapiro",
+                "givenName": "Jonathan",
+                "familyName": "Schapiro",
+                "alternateName": "Jonathan Schapiro",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Sheba Medical Center"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Alexander Bailey",
+                "givenName": "Alexander",
+                "familyName": "Bailey",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Janin Nouhin",
+                "givenName": "Janin",
+                "familyName": "Nouhin",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Dana Clutter",
+                "givenName": "Dana",
+                "familyName": "Clutter",
+                "alternateName": "Dana S. Clutter",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Vici Varghese",
+                "givenName": "Vici",
+                "familyName": "Varghese",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Tommy Liu",
+                "givenName": "Tommy",
+                "familyName": "Liu",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Michele Tang",
+                "givenName": "Michele",
+                "familyName": "Tang",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "George L. Melikian",
+                "givenName": "George",
+                "familyName": "Melikian",
+                "alternateName": "George L. Melikian",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Severine Margeridon-Thermet",
+                "givenName": "Severine",
+                "familyName": "Margeridon-Thermet",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Jose Luis Blanco",
+                "givenName": "Jose Luis",
+                "familyName": "Blanco",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Elizabeth C Reuman",
+                "givenName": "Elizabeth",
+                "familyName": "Reuman",
+                "alternateName": "Elizabeth C. Reuman",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Prerana Jayakumar",
+                "givenName": "Prerana",
+                "familyName": "Jayakumar",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Robert J. Gifford",
+                "givenName": "Robert",
+                "familyName": "Gifford",
+                "alternateName": "Robert J. Gifford",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Chunlin Wang",
+                "givenName": "Chunlin",
+                "familyName": "Wang",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Rafael Zioni",
+                "givenName": "Rafael",
+                "familyName": "Zioni",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Yumi Mitsuya",
+                "givenName": "Yumi",
+                "familyName": "Mitsuya",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Rami Kantor",
+                "givenName": "Rami",
+                "familyName": "Kantor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Bradley Betts",
+                "givenName": "Bradley",
+                "familyName": "Betts",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Matthew Gonzales",
+                "givenName": "Matthew",
+                "familyName": "Gonzales",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            },
+            {
+                "@type": "Person",
+                "name": "Rhoderick Machekano",
+                "givenName": "Rhoderick",
+                "familyName": "Machekano",
+                "affiliation": {
+                    "@type": "Organization",
+                    "name": "Stanford University"
+                }
+            }
+        ],
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "collectionSize": [
+            {
+                "minValue": 2311,
+                "unitText": "Publications",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 287112,
+                "unitText": "Patients",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 16291,
+                "unitText": "Isolates",
+                "@type": "PropertyValue"
+            }
+        ],
+        "distribution": [
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://hivdb.stanford.edu/pages/geno-rx-datasets.html",
+                "encoding": "txt.gz",
+                "dateModified": "2026-04-07"
+            },
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://hivdb.stanford.edu/pages/genopheno.dataset.html",
+                "encoding": "txt.gz",
+                "dateModified": "2026-04-07"
+            },
+            {
+                "@type": "DataDownload",
+                "contentUrl": "https://hivdb.stanford.edu/TCEs/",
+                "encoding": "xml, tar.gz",
+                "dateModified": "2026-04-07"
+            }
+        ],
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q5629924"
+        ],
+        "creditText": "\"How to Cite the HIV Drug Resistance Database: see https://hivdb.stanford.edu/pages/citation.html\"",
+        "hasPart": [
+            {
+                "@type": "ComputationalTool",
+                "name": "Sierra Web Service",
+                "url": "https://hivdb.stanford.edu/page/webservice/"
+            },
+            {
+                "@type": "ComputationalTool",
+                "name": "HIVDB Viral Sequence and Treatment Submission (VISTAS) Program",
+                "url": "https://hivdb.stanford.edu/genbank/"
+            },
+            {
+                "@type": "ComputationalTool",
+                "name": "HIVdb Program: Mutations Analysis",
+                "url": "https://hivdb.stanford.edu/hivdb/by-patterns/"
+            },
+            {
+                "@type": "ComputationalTool",
+                "name": "Genotype-Clinical Outcome Correlations",
+                "url": "https://hivdb.stanford.edu/pages/genotype-clinical.html"
+            },
+            {
+                "@type": "ComputationalTool",
+                "name": "Genotype-Phenotype Correlations",
+                "url": "https://hivdb.stanford.edu/pages/genotype-phenotype.html"
+            },
+            {
+                "@type": "ComputationalTool",
+                "name": "Genotype-Treatment Correlations",
+                "url": "https://hivdb.stanford.edu/pages/genotype-rx.html"
+            },
+            {
+                "@type": "WebPage",
+                "name": "User Guides and Documents",
+                "url": "https://hivdb.stanford.edu/pages/documents.html"
+            }
+        ],
+        "isBasedOn": [
+            {
+                "@type": "ComputationalTool",
+                "name": "HIVdb algorithm",
+                "url": "https://hivdb.stanford.edu/page/algorithm-updates/#version.10.2.update.2026-04-26"
+            }
+        ],
+        "sdPublisher": [
+            {
+                "@type": "DataCatalog",
+                "name": "Database Commons ",
+                "url": "https://ngdc.cncb.ac.cn/databasecommons/database/id/4197"
+            },
+            {
+                "@type": "DataCatalog",
+                "name": "Fairsharing.org",
+                "url": "https://fairsharing.org/FAIRsharing.41737c"
+            },
+            {
+                "@type": "DataCatalog",
+                "name": "https://rrid.site/",
+                "url": "https://rrid.site/data/record/nlx_144509-1/SCR_006631/resolver?q=rrid:scr_006631"
+            },
+            {
+                "@type": "DataCatalog",
+                "name": "Data Discovery Engine",
+                "url": "https://discovery.biothings.io/portal/nde"
+            }
+        ],
+        "isBasisFor": [
+            {
+                "@type": "ComputationalTool",
+                "name": "HyDRA Web",
+                "url": "https://hydra.canada.ca/pages/about?lang=en-CA"
+            }
+        ],
+        "citedBy": [
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Comparison of Different HIV-1 Resistance Interpretation Tools for Next-Generation Sequencing in Italy",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/39339898/",
+                "pmid": 39339898
+            }
+        ],
+        "about": [
+            {
+                "name": "Drug",
+                "url": "https://schema.org/Drug",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "Phenotype",
+                "url": "http://purl.obolibrary.org/obo/NCIT_C16977",
+                "description": "For the schema, consider https://bioschemas.org/types/Phenotype",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "ClinicalStudy",
+                "url": "http://purl.obolibrary.org/obo/NCIT_C15206",
+                "description": "For schema, consider https://schema.org/MedicalStudy",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "Software",
+                "url": "http://purl.obolibrary.org/obo/NCIT_C17146",
+                "description": "For schema use ComputationalTool",
+                "@type": "DefinedTerm"
+            }
+        ],
+        "topicCategory": [
+            "http://edamontology.org/topic_0625",
+            "http://edamontology.org/topic_4013",
+            "http://edamontology.org/topic_0208"
+        ],
+        "healthCondition": [
+            "http://purl.obolibrary.org/obo/MONDO_0005109",
+            "http://purl.obolibrary.org/obo/MONDO_0012268"
+        ],
+        "species": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        ],
+        "infectiousAgent": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_11676",
+            "http://purl.obolibrary.org/obo/NCBITaxon_11709"
+        ],
+        "keywords": [
+            "http://purl.obolibrary.org/obo/NCIT_C16523",
+            "http://purl.obolibrary.org/obo/IDO_0000470"
+        ],
+        "measurementTechnique": [
+            "http://purl.obolibrary.org/obo/OBI_0600047",
+            "http://purl.obolibrary.org/obo/NCIT_C17565",
+            "http://purl.obolibrary.org/obo/NCIT_C48292"
+        ],
+        "variableMeasured": [
+            "http://www.ebi.ac.uk/efo/EFO_0004828",
+            "http://purl.obolibrary.org/obo/NCIT_C44272",
+            "http://edamontology.org/data_2044"
+        ]
+    },
+    {
+        "name": "United States Immunodeficiency Network (USIDNET)",
+        "url": "https://usidnet.org/",
+        "identifier": "https://usidnet.org/",
+        "alternateName": "USIDNET",
+        "license": "https://usidnet.org/wp-content/uploads/2018/05/2018-USIDNET-Data-Use-Policy.pdf",
+        "conditionsOfAccess": "Restricted",
+        "usageInfo": {
+            "@type": "CreativeWork",
+            "name": "Conditions of use",
+            "url": "https://www.usidnet.net/queries"
+        },
+        "abstract": "United States Immunodeficiency Network (USIDNET) is a NIAID supported IID repository that includes clinical data.",
+        "description": "The United States Immunodeficiency Network (USIDNET) is a research consortium established to advance scientific research in the field of immunodeficiencies/inborn errors of immunity. We have several goals:\n\n   - Collection of phenotype data using automated data extraction to populate a freely accessible registry\n   - Facilitation of studies on outcomes and phenotypes using USIDNET data\n   - Matchmaking services to connect clinicians and researchers\n   - Collaboration with ClinGen, OMIM, MONDO and HPO to improve data in other databases\n   - Development of do-it-yourself (DIY) data access points\n   - Mentoring of trainees",
+        "collectionType": "Patient Registry",
+        "hasAPI": false,
+        "hasDownload": "Aggregate-level",
+        "isAccessibleForFree": true,
+        "inLanguage": [
+            {
+                "@type": "Language",
+                "name": "English"
+            }
+        ],
+        "genre": "IID",
+        "dateModified": "2019.03.21",
+        "dateCreated": "2003-09-25",
+        "citation": [
+            {
+                "@type": "ScholarlyArticle",
+                "name": "USIDNET: a strategy to build a community of clinical immunologists.",
+                "pmid": "24711005"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "name": "The Importance of Primary Immune Deficiency Registries: The United States Immunodeficiency Network Registry.",
+                "pmid": " 32654688"
+            }
+        ],
+        "@type": "nde:ResourceCatalog",
+        "date": "2026-06-30",
+        "@context": {
+            "owl": "http://www.w3.org/2002/07/owl#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "schema": "http://schema.org/",
+            "niaid": "https://discovery.biothings.io/ns/niaid/",
+            "nde": "https://discovery.biothings.io/ns/nde/"
+        },
+        "funding": [
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "R24AI171055",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "5U24AI086037",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            },
+            {
+                "@type": "MonetaryGrant",
+                "identifier": "4U54AI082973",
+                "funder": {
+                    "@type": "Organization",
+                    "name": "National Institute of Allergy and Infectious Diseases",
+                    "alternateName": "NIAID",
+                    "parentOrganization": "NIH"
+                }
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "Immune Deficiency Foundation",
+                "alternateName": "IDF",
+                "identifier": "https://www.wikidata.org/wiki/Q30256976"
+            },
+            {
+                "@type": "Organization",
+                "name": "Children's Hospital of Philadelphia",
+                "alternateName": "CHOP"
+            }
+        ],
+        "includedInDataCatalog": {
+            "@type": "DataCatalog",
+            "name": "Data Discovery Engine",
+            "url": "https://discovery.biothings.io/"
+        },
+        "collectionSize": [
+            {
+                "minValue": 5000,
+                "unitText": "Patients",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 20,
+                "unitText": "Clinical Sites",
+                "@type": "PropertyValue"
+            },
+            {
+                "minValue": 70,
+                "unitText": "Publications",
+                "@type": "PropertyValue"
+            }
+        ],
+        "spatialCoverage": [
+            {
+                "@type": "AdministrativeArea",
+                "name": "United States of America",
+                "alternateName": "USA",
+                "administrativeType": "country",
+                "identifier": "Q30",
+                "locationType": "study location"
+            },
+            {
+                "@type": "AdministrativeArea",
+                "name": "Canada",
+                "alternateName": "CAN",
+                "administrativeType": "country",
+                "identifier": "Q16",
+                "locationType": "study location"
+            }
+        ],
+        "temporalCoverage": {
+            "@type": "TemporalInterval",
+            "startDate": "2003-09-25",
+            "duration": "2003/..",
+            "temporalType": "collection"
+        },
+        "sameAs": [
+            "https://www.wikidata.org/wiki/Q30289195"
+        ],
+        "creditText": "See Publication Policy at: https://www.usidnet.net/s/2024-USIDNET-Publication-Policy.pdf",
+        "hasPart": [
+            {
+                "@type": "Collection",
+                "name": "Actively Enrolling Sites",
+                "url": "https://www.usidnet.net/current-sites"
+            },
+            {
+                "@type": "Collection",
+                "name": "Previous (USIDNET-V1) Sites",
+                "url": "https://www.usidnet.net/usidnet-v1-sites"
+            },
+            {
+                "@type": "Collection",
+                "name": "Registry-Supported Publications",
+                "url": "https://usidnet.org/about-the-registry/registry-publications/"
+            },
+            {
+                "@type": "Service",
+                "name": "Disease Matchmaking",
+                "url": "https://www.usidnet.net/matchmaking"
+            },
+            {
+                "@type": "Service",
+                "name": "Custom Dataset Request",
+                "url": "https://usidnet.org/registry-data/about-queries/"
+            }
+        ],
+        "isPartOf": [
+            {
+                "@type": "Website",
+                "name": "Immune Deficiency Foundation",
+                "url": "https://primaryimmune.org/advancing-pi-research-and-clinical-care"
+            }
+        ],
+        "citedBy": [
+            {
+                "@type": "Collection",
+                "name": "Registry-Supported Publications",
+                "url": "https://usidnet.org/about-the-registry/registry-publications/"
+            }
+        ],
+        "isBasedOn": [
+            {
+                "@type": "ScholarlyArticle",
+                "name": "Chronic granulomatous disease. Report on a national registry of 368 patients",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/10844935/",
+                "pmid": 10844935
+            }
+        ],
+        "isBasisFor": [
+            {
+                "@type": "ComputationalTool",
+                "name": "Registry Data Viz",
+                "url": "https://usidnet.org/registry-data/stats-registry-enrollment/"
+            }
+        ],
+        "sdPublisher": [
+            {
+                "@type": "DataCatalog",
+                "name": "https://rrid.site/",
+                "url": "https://rrid.site/data/record/nlx_144509-1/SCR_004672/resolver?q=rrid:scr_004672"
+            },
+            {
+                "@type": "DataCatalog",
+                "name": "Data Discovery Engine",
+                "url": "https://discovery.biothings.io/portal/nde"
+            }
+        ],
+        "isRelatedTo": [
+            {
+                "@type": "Website",
+                "name": "USIDNET.net",
+                "url": "https://usidnet.net"
+            }
+        ],
+        "about": [
+            {
+                "name": "Patient",
+                "url": "http://purl.obolibrary.org/obo/NCIT_C16960",
+                "description": "For schema, consider https://schema.org/Patient",
+                "@type": "DefinedTerm"
+            },
+            {
+                "name": "Organization",
+                "url": "http://www.w3.org/ns/prov#Organization",
+                "description": "https://schema.org/Organization",
+                "@type": "DefinedTerm"
+            }
+        ],
+        "topicCategory": [
+            "http://edamontology.org/topic_3400",
+            "http://edamontology.org/topic_3325",
+            "http://edamontology.org/topic_3277"
+        ],
+        "healthCondition": [
+            "http://purl.obolibrary.org/obo/MONDO_0003778"
+        ],
+        "species": [
+            "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        ],
+        "keywords": [
+            "http://purl.obolibrary.org/obo/NCIT_C70777",
+            "http://purl.obolibrary.org/obo/NCIT_C142529"
+        ],
+        "measurementTechnique": [
+            "http://purl.obolibrary.org/obo/NCIT_C129000",
+            "http://edamontology.org/topic_3473",
+            "http://purl.obolibrary.org/obo/NCIT_C16147"
+        ],
+        "variableMeasured": [
+            "http://purl.obolibrary.org/obo/NCIT_C16495",
+            "http://purl.obolibrary.org/obo/NCIT_C39547",
+            "http://purl.obolibrary.org/obo/NCIT_C18772"
+        ]
+    }
+]
