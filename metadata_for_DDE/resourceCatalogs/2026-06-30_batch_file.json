@@ -559,7 +559,7 @@
         "description": "The United States Immunodeficiency Network (USIDNET) is a research consortium established to advance scientific research in the field of immunodeficiencies/inborn errors of immunity. We have several goals:\n\n   - Collection of phenotype data using automated data extraction to populate a freely accessible registry\n   - Facilitation of studies on outcomes and phenotypes using USIDNET data\n   - Matchmaking services to connect clinicians and researchers\n   - Collaboration with ClinGen, OMIM, MONDO and HPO to improve data in other databases\n   - Development of do-it-yourself (DIY) data access points\n   - Mentoring of trainees",
         "collectionType": "Patient Registry",
         "hasAPI": false,
-        "hasDownload": "Aggregate-level",
+        "hasDownload": "Aggregate data",
         "isAccessibleForFree": true,
         "inLanguage": [
             {
