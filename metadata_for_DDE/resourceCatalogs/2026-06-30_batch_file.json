@@ -19,7 +19,7 @@
             }
         ],
         "genre": "IID",
-        "dateModified": "2026.02.18",
+        "dateModified": "2026-02-18",
         "dateCreated": "1998-10-01",
         "citation": [
             {
@@ -484,7 +484,7 @@
                 "@type": "ScholarlyArticle",
                 "name": "Comparison of Different HIV-1 Resistance Interpretation Tools for Next-Generation Sequencing in Italy",
                 "url": "https://pubmed.ncbi.nlm.nih.gov/39339898/",
-                "pmid": 39339898
+                "pmid": "39339898"
             }
         ],
         "about": [
@@ -568,7 +568,7 @@
             }
         ],
         "genre": "IID",
-        "dateModified": "2019.03.21",
+        "dateModified": "2019-03-21",
         "dateCreated": "2003-09-25",
         "citation": [
             {
@@ -733,7 +733,7 @@
                 "@type": "ScholarlyArticle",
                 "name": "Chronic granulomatous disease. Report on a national registry of 368 patients",
                 "url": "https://pubmed.ncbi.nlm.nih.gov/10844935/",
-                "pmid": 10844935
+                "pmid": "10844935"
             }
         ],
         "isBasisFor": [
